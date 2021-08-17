@@ -1,0 +1,98 @@
+/* BODY */
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: 'Georama', sans-serif;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 40px;
+  width: 80%;
+  height: 40%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.quote_text {
+  color: black;
+  margin: 0;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  text-align: center;
+  font-family: 'Georama', sans-serif;
+}
+
+.quote_author {
+  color: gray;
+  text-align: center;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-family: 'STIX Two Text', serif;
+}
+
+/* BUTTONS */
+
+button {
+  width: 40%;
+  margin: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  color: gray;
+  border: none;
+}
+
+button.active {
+  color: white;
+  background-color: darkblue;
+}
+
+button.active:hover {
+  background-color: darkslateblue;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+/* TWEET BUTTON */
+
+.twitter-share-button {
+  padding: 9px 18px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  background: #1da1f2;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+}
+
+img {
+  margin-right: 10px;
+}
+
+.twitter-share-button:hover {
+  opacity: 0.5;
+}
